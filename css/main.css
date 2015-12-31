@@ -13,6 +13,10 @@ body {
   padding: 10px 30px 20px;
 }
 
+@media only screen and (max-device-width: 480px) {
+  max-width: 509px;
+}
+
 .img {
   border: 1px solid #e1d7cb;
   border-radius: 10px;
