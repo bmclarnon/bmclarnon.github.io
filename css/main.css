@@ -13,10 +13,6 @@ body {
   padding: 10px 30px 20px;
 }
 
-@media only screen and (max-device-width: 480px) {
-  max-width: 509px;
-}
-
 .img {
   border: 1px solid #e1d7cb;
   border-radius: 10px;
@@ -105,4 +101,10 @@ h1 + div.hr {
   margin: 0 auto;
   padding-top: 1px;
   width: 400px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #main {
+    max-width: 509px;
+  }
 }
