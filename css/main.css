@@ -9,7 +9,7 @@ body {
   border-radius: 3px;
   font-family: "Playfair Display", serif;
   margin: 15px 20px;
-  min-width: 509px;
+/*  min-width: 509px;  TODO */
   padding: 10px 30px 20px;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 #main h1 {
-  font-size: 32px;
+  font-size: xx-large;
   margin: 20px 0 0;
   text-align: center;
 }
@@ -46,9 +46,9 @@ h1 + div.hr {
 
 #header {
   font-family: Trocchi, serif;
-  font-size: 32px;
+  font-size: xx-large;
   margin: 0 auto;
-  width: 489px;
+  width: 100%;
   text-align: center;
 }
 
@@ -58,7 +58,7 @@ h1 + div.hr {
 
 #names {
   font-family: "Playfair Display", serif;
-  font-size: 64px;
+  font-size: 200%;
   font-variant: small-caps;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -66,7 +66,8 @@ h1 + div.hr {
 
 #nav > div:first-child {
   background: url(../img/banner.svg) no-repeat center 65%;
-  height: 245px;
+  background-size: contain;
+/*  height: 245px;  TODO */
   width: 100%;
 }
 
@@ -74,7 +75,7 @@ h1 + div.hr {
   background: rgba(134, 150, 179, 0.75);
   border-radius: 4px;
   color: black;
-  font-size: 16px;
+  font-size: medium;
   margin: 0px 8px;
   padding: 0px 4px;
   text-decoration: none;
@@ -92,7 +93,7 @@ h1 + div.hr {
 
 #header .hr {
   border-width: 2px;
-  width: 485px;
+  width: 90%;
 }
 
 .hr {
@@ -100,11 +101,5 @@ h1 + div.hr {
   border-radius: 2px;
   margin: 0 auto;
   padding-top: 1px;
-  width: 400px;
-}
-
-@media only screen and (max-device-width: 480px) {
-  #main {
-    max-width: 509px;
-  }
+  width: 400px;  /* TODO */
 }
